@@ -2,8 +2,13 @@
 
 # dependencies
 /node_modules
+/pages/About.jsx
+.Login.jsx
+/server
 /.pnp
 .pnp.js
+
+
 
 # testing
 /coverage

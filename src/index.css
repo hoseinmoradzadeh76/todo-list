@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Vazir', 'tahoma','Ubuntu';
+   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.header{
+  background-image: url("./asstes/header-day.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 200px;
+}
+input[type="text"]::-webkit-input-placeholder{
+  color: #44475a;
+}
+input[type="text"]{
+  color: #44475a !important;
+  
+}
+.addinput{
+  border: none;
+  outline: none;
+}
+.form-tesk{
+  border-bottom:2px solid #daddeb;
+}
+.form-tesk::click{
+  border-bottom: 2px solid #44475a;
+}
+.addButton{
+  background:none;
+  font-size:25px;
+}
+.form-login{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+ margin: 0 auto;
 }
